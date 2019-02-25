@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        tools:context="las.las.LoginActivity">
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_first_name"
+                android:id="@+id/firstName"
+            android:layout_marginTop="20dp"
+            android:layout_alignEnd="@+id/lastName" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="enter email address"
+            android:layout_marginTop="150dp"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_10_digit_mobile_number"
+            android:id="@+id/mobile_Number"
+            android:layout_marginTop="120dp"
+            android:inputType="phone" />
+
+        <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:hint="@string/enter_your_address"
+             android:id="@+id/address"
+             android:layout_marginTop="90dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastName"
+            android:hint="@string/enter_last_name"
+            android:layout_marginTop="60dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal Information"
+                android:id="@id/textView1"
+                android:textSize="24sp"
+                android:textColor="@android:color/holo_blue_light"
+                android:textStyle="normal|bold"
+                tools:ignore="HardcodedText" />
+
+
+
+    </RelativeLayout>
+
